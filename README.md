@@ -519,12 +519,12 @@ GROUP BY error ORDER BY 2 DESC;
 
 | Task | Est. | Status |
 |------|------|--------|
-| Core crawler — `crawler.py` | 1d | ✅ Done |
-| Three-layer classifier — `classifier.py` (Claude→Gemini→keywords) | 1d | ✅ Done |
-| FastAPI REST service — `main.py` | 0.5d | ✅ Done |
-| Docker container + EC2 deploy | 0.5d | ✅ Done |
-| Unit tests (mocked HTTP) | 0.5d | ✅ Done |
-| **Total** | **3.5d** | |
+| Core crawler — `crawler.py` | 0.5d | ✅ Done |
+| Three-layer classifier — `classifier.py` (Claude→Gemini→keywords) | 0.25d | ✅ Done |
+| FastAPI REST service — `main.py` | 0.25d | ✅ Done |
+| Docker container + EC2 deploy | 0.25d | ✅ Done |
+| Unit tests (mocked HTTP) | 0.25d | ✅ Done |
+| **Total** | **1.5d** | |
 
 #### Milestone 2 — Scale Infrastructure (Weeks 2–3)
 
@@ -697,6 +697,4 @@ brightedge-crawler/
 ├── requirements.txt     # Pinned dependencies
 ├── .env.example         # Template for local secrets (never commit real keys)
 ├── .gitignore
-└── README.md           
-```
-
+└── README.md
