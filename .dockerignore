@@ -1,0 +1,8 @@
+venv
+.git
+__pycache__
+*.pyc
+.cursorignore
+.env
+*.md
+.pytest_cache
