@@ -1,4 +1,4 @@
-# BrightEdge Web Crawler — Engineering Assignment
+#  Web Crawler — 
 
 > **AI Tools Used:** Claude API (Anthropic) for page topic classification; Claude claude-sonnet-4-20250514 (chat) used for design consultation and code review during development.
 
